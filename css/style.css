@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: #161616;    
+    color: white;
+}
+
+.logo{
+    height: 48px;
+    width: 48px;
+    margin-right: 12px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+
+.films-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.film-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 360px;
+    width: 240px;
+    margin-bottom: 16px;
+    margin-right: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.film-card:hover {
+    transform: scale(1.1,1.1);
+}
+
+.films-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+.modal-content {
+    width: 50vw;
+    height: 90vh;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+.modal-content h1{
+    padding-bottom: 20px;
+}
+
+.modal-content h3{
+    padding-bottom: 15px;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 756px;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 48px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.search-input {
+    border: 0px;
+    width: 90%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.search-button {
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+}
+.search-button:hover{
+    transform: scale(1.5,1.5);
+}

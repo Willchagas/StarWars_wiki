@@ -5,4 +5,4 @@
     The main point is to consume an API of StarWars movies and show them in a listing.
 
 ## Instructions:
-    Run the 'index.html' file in your browser to see the application.
+    Run the **index.html** file in your browser to see the application.

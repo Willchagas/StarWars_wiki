@@ -55,6 +55,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 20px;
     transition: 1s;
 }
 
@@ -85,15 +86,25 @@
     padding: 20px;
     background-color: white;
     color: black;
-
+    overflow: scroll;
 }
 
 .modal-content h1{
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .modal-content h3{
     padding-bottom: 15px;
+    text-align: center;
+}
+
+.modal-content p{
+    margin-top: 50px;
+    font-family: quick-sand;
+    text-align: justify;
+    line-height: 35px;
+    word-spacing: 4px;
 }
 
 .search-bar{
